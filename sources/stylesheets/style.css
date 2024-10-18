@@ -1,0 +1,28 @@
+/*General page styles*/
+:root{
+    /*Color palete */
+    --gray1: #FCFEFF;
+    --gray2: #F9FBFC;
+    --gray3: #EBECED; /*To divisions*/ 
+    --brown1: #a19893;
+    --brown2: #55555A;
+    --brown3: #55555A;
+    --blue: #536E91;
+    /* Variants */
+    --brown4: #79726E;
+    --blueButtons: #5286c9;
+    --blueButtons_hover: #4a78b4;
+
+}
+
+*{
+    font-family: Lexend, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gray);
+    display: flex;
+}

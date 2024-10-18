@@ -1,0 +1,12 @@
+.task{
+    margin: 20px 0;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    padding: 5px 10px;
+    border: 2px solid var(--gray3);
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
