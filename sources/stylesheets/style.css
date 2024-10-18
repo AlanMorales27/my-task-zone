@@ -26,3 +26,20 @@ body{
     background-color: var(--gray);
     display: flex;
 }
+
+/* General Components */
+
+.button{
+    width: 20%;
+    height: 80%;
+    background-color: var(--blueButtons);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+  .button:hover{
+    background-color: var(--blueButtons_hover);
+  }

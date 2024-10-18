@@ -12,6 +12,7 @@
      <link rel="stylesheet" href="sources/stylesheets/section_main.css">
         <!-- Components -->
         <link rel="stylesheet" href="sources/stylesheets/components/comp_task.css">
+        <link rel="stylesheet" href="sources/stylesheets/components/comp_addBox.css">
 </head>
 <body>
     <!-- Navigator left side -->
@@ -21,7 +22,7 @@
     <!-- Main section -->
     <main>
         <section class="section-tools">
-            <button class="tools-button" id="add">
+            <button class="tools-button button" id="add">
                 Create new
             </button>
         </section>
@@ -37,6 +38,20 @@
             </ul>
         </section>
     </main>
+
+    <div class="addBox">
+        <form action="">
+            <!-- Task title input -->
+            <input 
+            type="text" 
+            class="addBox-textInput" 
+            id="input-task_title"
+            placeholder="Insert your task title">
+            <button class="button" id="input-send">
+                Crear
+            </button>
+        </form>
+    </div>
     <script type="module" src="/scripts/script.js"></script>
 </body>
 </html>
