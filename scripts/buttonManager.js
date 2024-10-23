@@ -3,7 +3,7 @@ class buttonManager{
         this.button =  button
     }
 
-    get text(){
+    getInputText(input){
         this.button.onclick = () => {
             return input.value
         }
@@ -15,3 +15,4 @@ class buttonManager{
         }
     }
 }
+

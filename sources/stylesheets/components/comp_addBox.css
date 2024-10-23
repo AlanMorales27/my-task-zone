@@ -1,5 +1,4 @@
 .addBox{
-
   top: 50%;
   left: 50%;
   position: absolute;
@@ -8,6 +7,7 @@
   width: 50vw;
   background-color: var(--gray3);
   border-radius: 20px;
+  
 }
   .addBox form{
     display: flex;
